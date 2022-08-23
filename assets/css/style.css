@@ -29,6 +29,7 @@ h1, h2 {
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
+  float: right;
 }
 
 #menu, #logo {
@@ -36,9 +37,9 @@ h1, h2 {
 }
 
 #menu li {
-  float: right;
   list-style-type: none;
   margin-right: 30px;
+  display: inline;
 }
 
 #menu a {
@@ -95,9 +96,8 @@ h1, h2 {
   letter-spacing: 4px;
   width: 300px;
   height: 200px;
-  padding-top: 40px;
-  padding-left: 10px;
-
+  padding-top: 50px;
+  padding-left: 20px;
   background-color: rgba(241, 109, 107, 0.7);
   position: absolute;
   bottom: 30px;
@@ -196,4 +196,23 @@ hr {
 
 #times h2 {
   color: #fafafa;
+}
+
+footer {
+  height: 150px;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #3a3a3a;
 }
