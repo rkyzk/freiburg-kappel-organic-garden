@@ -172,3 +172,13 @@ hr {
   height: 100%;
   border-radius: 50%;
 }
+
+.meet-up-time {
+  text-align: center;
+}
+
+.meet-up-info {
+  height: 300px;
+  width: 200px;
+  display: inline-block;
+}
