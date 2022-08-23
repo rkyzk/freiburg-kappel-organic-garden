@@ -173,8 +173,13 @@ hr {
   border-radius: 50%;
 }
 
-.meet-up-time {
+#times {
   text-align: center;
+  background: url(../images/dublin-city.webp) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .meet-up-info {
