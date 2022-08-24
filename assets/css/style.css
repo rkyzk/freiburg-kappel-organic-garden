@@ -228,6 +228,12 @@ footer {
   width: 100%;
 }
 
+/* signup */
+#signup {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(100, 100, 100, 0.6);
+}
 
 /* media queries */
 @media screen and (max-width: 1200px) {
@@ -313,4 +319,13 @@ footer {
     padding: 0 10px;
   }
 
+  #photos {
+    column-count: 3;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #photos {
+    column-count: 2;
+  }
 }
