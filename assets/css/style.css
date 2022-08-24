@@ -281,3 +281,12 @@ footer {
     margin-bottom: 5px;
   }
 }
+
+/* media queries for screen sizes of 950px and below */
+@media screen and (max-width: 950px) {
+
+  #nav {
+    clear: both;
+    float: left;
+  }
+}
