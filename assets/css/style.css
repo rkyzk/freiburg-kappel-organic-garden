@@ -289,4 +289,20 @@ footer {
     clear: both;
     float: left;
   }
+
+  #cover-text {
+    left: 10;
+  }
+
+  #club-ethos {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  .about-heading {
+    width: inherent;
+    padding: 0 10px;
+  }
+
 }
