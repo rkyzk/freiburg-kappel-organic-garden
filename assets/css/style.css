@@ -280,6 +280,14 @@ footer {
   #club-ethos h2 {
     margin-bottom: 5px;
   }
+
+  /* times */
+  #times > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+  }
 }
 
 /* media queries for screen sizes of 950px and below */
