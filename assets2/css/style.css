@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK&family=Lato:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+#bg-image {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: url('../images/tulip-field.jpg') no-repeat top center;
+}
+
+h1 {
+    font-family: "Nato Serif HK", sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#logo {
+    font-size: 160%;
+    margin: 20px 20px;
+}
