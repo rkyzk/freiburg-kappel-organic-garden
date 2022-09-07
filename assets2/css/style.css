@@ -110,3 +110,63 @@ h2, #events > p, #events h3, .sign-up {
   height: 60px;
   background-color: #542000;
 }
+
+/* ---------   events.html ---------------    */
+
+#events-bg-image {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: url('../images/narcissi.jpg') no-repeat center top;
+}
+
+#events-list h2 {
+  margin-top: 80px;
+  text-align: center;
+}
+  
+#events-list ul {
+  margin-top: 60px;
+}
+  
+#events-wrapper {
+  display: flex;
+}
+  
+#events-list {
+  width: 46%;
+  order: 2;
+}
+
+#events-table {
+  width: 400px;
+  margin: 40px auto 0;
+}
+
+#left-photos, #right-photos {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#left-photos {
+  order: 1;
+}
+
+#right-photos {
+  order: 3;
+}
+  
+#events-table tr {
+  line-height: 3;
+}
+  
+#red-gladiolus, #dahlia, #sunflower, #gladiolus {
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 60px;
+}
+  
