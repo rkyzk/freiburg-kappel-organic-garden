@@ -48,5 +48,33 @@ li {
   background-color: rgba(100, 100, 100, 0.6);
 }
 
-  
-  
+#about {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+#welcome, #events {
+    margin-top: 70px;
+}
+
+#welcome p, #events p, #compost-date {
+    margin-top: 20px;
+}
+
+h2, #events > p, #events h3, .sign-up {
+  text-align: center
+}
+
+#compost-wrapper, #bulbs-wrapper {
+  display: flex;
+  margin-top: 70px;
+}
+
+#compost-description, #bulbs-description {
+  padding-right: 30px;
+}
+
+#events a:hover {
+  text-decoration: underline;
+} 
