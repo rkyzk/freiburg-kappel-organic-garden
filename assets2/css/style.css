@@ -45,7 +45,7 @@ li {
   width: 70px;
   margin: 20px 0 0 40px;
   padding: 15px 25px;
-  background-color: rgba(100, 100, 100, 0.6);
+  background-color: rgba(80, 80, 80, 0.6);
 }
 
 #about, #location {
@@ -173,7 +173,78 @@ h2, #events > p, #events h3, .sign-up {
 /* ---------    contact.html  -------- */
 #contact-bg-image {
   width: 100%;
-  height: 1200px;
+  height: 1000px;
   background: url('../images/tulip-field2.jpg') no-repeat top center;
   overflow: hidden;
+}
+
+#form-wrapper {
+  width: 100%;
+}
+
+#form-bg {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  background-color: rgba(80, 80,80, 0.6);
+  color: #fff;
+  padding: 20px 0 30px;
+}
+
+#form-contents {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+#form-contents h3 {
+  text-align: center;
+}
+
+#personal-data label, .radio-options {
+  display: block;
+}
+
+#personal-data {
+  margin-top: 15px;
+}
+
+#personal-data input {
+  line-height: 1.6;
+  font-size: 110%;
+  margin-bottom: 5px;
+  background-color: rgba(230,230,230,0.5);
+}
+
+#personal-data label {
+  line-height: 1.6;
+}
+
+#form-contents p {
+  margin: 15px 0 5px;
+}
+
+.radio-options label {
+  line-height: 1.4;
+}
+
+#comments {
+  margin: 15px 0 15px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 150px;
+  margin-top: 5px; 
+  font-size: 110%;
+  background-color: rgba(230,230,230,0.5);
+}
+
+#btn {
+  font-size: 110%;
+  background-color: hsl(299, 83%, 66%);
+  padding: 10px 30px;
+  border-radius: 5%;
+  color: #fff;
 }
