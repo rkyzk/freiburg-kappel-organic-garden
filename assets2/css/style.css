@@ -48,13 +48,13 @@ li {
   background-color: rgba(100, 100, 100, 0.6);
 }
 
-#about {
+#about, #location {
     width: 75%;
     display: block;
     margin: 0 auto;
 }
 
-#welcome, #events {
+#welcome, #events, #location {
     margin-top: 70px;
 }
 
@@ -72,9 +72,25 @@ h2, #events > p, #events h3, .sign-up {
 }
 
 #compost-description, #bulbs-description {
-  padding-right: 30px;
+  padding-right: 40px;
 }
 
 #events a:hover {
   text-decoration: underline;
 } 
+
+#location-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+  }
+
+#map {
+  width: 400px;
+  height: 300px;
+}
+
+#directions {
+  width: auto;
+  padding-left: 50px;
+}
