@@ -20,13 +20,32 @@ body {
   background: url('../images/tulip-field.jpg') no-repeat top center;
 }
 
-h1 {
+#logo {
     font-family: "Nato Serif HK", sans-serif;
     letter-spacing: 2px;
     color: #fff;
-}
-
-#logo {
     font-size: 160%;
     margin: 20px 20px;
 }
+
+a {
+    text-decoration: none;
+}
+ 
+li {
+  list-style: none;
+}
+     
+#menu a {
+  color: #fff;
+  line-height: 1.4;
+}
+  
+#menu {
+  width: 70px;
+  margin: 20px 0 0 40px;
+  padding: 15px 25px;
+  background-color: rgba(100, 100, 100, 0.6);
+}
+  
+  
