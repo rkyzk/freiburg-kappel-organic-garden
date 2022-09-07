@@ -9,7 +9,7 @@
     <title>Freiburg Kappel Organic Garden</title>
   </head>
   <body>
-    <div id="contact-bg-image">
+<!--    <div id="contact-bg-image">   -->
       <header>
         <a href="index.html">
           <h1 id="logo">Freiburg Kappel Organic Garden</h1>
@@ -24,9 +24,27 @@
       </header>
       <section id="form-wrapper">
         <form>
-
+          <div id="form-contents">
+						<h3>Sign up for our events, or simply write to us.</h3>
+						<label for="first-name">First name</label>
+						<input type="text" name="first-name" required>
+						<label for="last-name">Last name</label>
+						<input id="last-name" type="text" name="last-name" required>
+						<label for="email">Email</label>
+						<input id="email" type="email" name="email" required>
+						<p>Which event(s) would you like to participate?</p>
+						<input type="radio" name="compost-0903" value="0903">
+						<label for="compost-0903">Compost Making on September 3rd · 10am</label>
+					  <input type="radio" name="compost-0904" value="0904">
+					  <label for="compost-0904">Compost Making on September 4th · 2pm</label>
+					  <input type="radio" name="planting-1022" value="Planting Bulbs on October 22nd">
+					  <label for="planting-1022">Planting Bulbs on October 22nd · 10am</label>
+						<label for="comments">Comments</label>
+						<textarea name="comments"></textarea>
+						<input type="button" value="Submit">
+					</div>   <!-- form-contents    -->
         </form>
       </section>
-    </div>
+<!--   </div> -->   <!--        contact-bg-image -->    
   </body> 
 </html>
