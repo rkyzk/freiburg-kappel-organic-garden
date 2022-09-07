@@ -94,3 +94,19 @@ h2, #events > p, #events h3, .sign-up {
   width: auto;
   padding-left: 50px;
 }
+
+.social-networks {
+  display: flex;
+  width: 90px;
+  margin: 40px auto 5px;
+}
+
+.social-networks li {
+  margin-right: 15px;
+}
+
+#bottom-rim {
+  width: 100%;
+  height: 60px;
+  background-color: #542000;
+}
