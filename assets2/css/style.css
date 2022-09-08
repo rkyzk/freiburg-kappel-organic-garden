@@ -13,6 +13,8 @@ body {
   color: #3a3a3a;
 }
 
+
+
 #bg-image {
   width: 100%;
   height: 600px;
@@ -39,13 +41,23 @@ li {
 #menu a {
   color: #fff;
   line-height: 1.4;
+  margin-left: 5px;
 }
   
 #menu {
-  width: 70px;
+  width: 100px;
   margin: 20px 0 0 40px;
-  padding: 15px 25px;
-  background-color: rgba(80, 80, 80, 0.6);
+  padding: 15px 20px;
+  background-color: rgb(20, 37, 125);
+}
+
+.inactive {
+  visibility: hidden;
+}
+
+.inactive:hover {
+  visibility: visible;
+  text-decoration: underline;
 }
 
 #about, #location {
@@ -66,6 +78,38 @@ h2, #events > p, #events h3, .sign-up {
   text-align: center
 }
 
+.gray-flower-icon {
+  width: 22px;
+  height: 22px;
+  position: relative;
+  top: 4px;
+}
+
+.flower-icon {
+  width: 30px;
+  height: auto;
+  position: relative;
+  top: 10px;
+  right: 25px;
+}
+
+.flower-icon-left, .flower-icon-right {
+  width: 80px;
+  height: auto;
+}
+
+.flower-icon-left {
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+
+.flower-icon-right {
+  position: relative;
+  top: 13px;
+  left: 20px;
+}
+
 #compost-wrapper, #bulbs-wrapper {
   display: flex;
   margin-top: 70px;
@@ -75,15 +119,29 @@ h2, #events > p, #events h3, .sign-up {
   padding-right: 40px;
 }
 
+#compost-photo, #bulbs-photo {
+  width: 380px;
+  height: 280px;
+}
+
 #events a:hover {
   text-decoration: underline;
 } 
+
+#more-events {
+  margin-top: 30px;
+}
 
 #location-wrapper {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
   }
+
+#map-container {
+  width: 400px;
+  height: 300px;
+}
 
 #map {
   width: 400px;
@@ -93,6 +151,10 @@ h2, #events > p, #events h3, .sign-up {
 #directions {
   width: auto;
   padding-left: 50px;
+}
+
+#how-to-get-there {
+  margin-top: 10px;
 }
 
 .social-networks {
@@ -105,10 +167,9 @@ h2, #events > p, #events h3, .sign-up {
   margin-right: 15px;
 }
 
-#bottom-rim {
+#floral-rim {
   width: 100%;
-  height: 60px;
-  background-color: #542000;
+  height: auto;
 }
 
 /* ---------   events.html ---------------    */
