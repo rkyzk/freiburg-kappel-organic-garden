@@ -417,6 +417,8 @@ textarea {
 
   #events-wrapper {
     flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
   }
 
   #events-list {
@@ -439,9 +441,10 @@ textarea {
    #left-photos, #right-photos {
      width: 100%;
      flex-direction: row;
+     justify-content: space-between;
    }
 
-   #red-gladiolus, #dahlia, #sunflower, #gladiolus {
+  #red-gladiolus, #dahlia, #sunflower, #gladiolus {
      width: 120px;
      height: 120px;
      border-radius: 50%;
@@ -466,12 +469,13 @@ textarea {
 
 /* screen sizes of 500px or smaller */
 @media screen and (max-width: 500px) {
-  #bg-image {
+  #bg-image, #events-bg-image {
     height: 450px;
   }
 
   #events-list {
     font-size: 80%;
+    margin-top: -120px;;
   }
 
   #events-table {
