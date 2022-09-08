@@ -138,6 +138,29 @@ h2, #events > p, #events h3, .sign-up {
   margin-top: 30px;
 }
 
+#events-photos {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#gardening-photo, #girl-photo, #gladiolus-photo {
+  width: 40%;
+  height: auto;
+}
+
+#gardening-photo {
+  float: left;
+}
+
+#gladiolus-photo {
+  float: right;
+}
+
+#girl-photo {
+  position: relative;
+  bottom: 60px;
+}
+
 #location-wrapper {
     display: flex;
     justify-content: space-around;
@@ -366,6 +389,30 @@ textarea {
     text-align: left;
   }
 
+
+#gardening-photo, #girl-photo, #gladiolus-photo {
+  width: 60%;
+  height: auto;
+}
+
+#gardening-photo {
+  float: left;
+}
+
+#gladiolus-photo {
+  float: right;
+}
+
+#girl-photo {
+  float: left;
+  bottom: auto;
+}
+
+#location {
+  clear: both;
+  margin-top: 40px;
+}
+
   /* events.html     */
 
   #events-wrapper {
@@ -411,13 +458,22 @@ textarea {
     width: 310px;
     margin: 10px auto;
   }
+
+  #events > p {
+    text-align: left;
+  }
 }
 
 /* screen sizes of 500px or smaller */
 @media screen and (max-width: 500px) {
+  #bg-image {
+    height: 450px;
+  }
+
   #events-list {
     font-size: 80%;
   }
+
   #events-table {
     width: 300px;
     margin: 60px auto 0;
