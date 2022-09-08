@@ -53,7 +53,7 @@ li {
   visibility: hidden;
 }
 
-.inactive:hover {
+.inactive a:hover {
   visibility: visible;
   text-decoration: underline;
 }
@@ -121,7 +121,16 @@ h2, #events > p, #events h3, .sign-up {
   height: 280px;
 }
 
-#events a:hover {
+#compost-date {
+  width: 300px;
+  margin: 20px auto;
+}
+
+#bulbs-date {
+  text-align: center;
+}
+
+#events a:hover, #events-list a:hover {
   text-decoration: underline;
 } 
 
@@ -199,6 +208,11 @@ h2, #events > p, #events h3, .sign-up {
 #events-table {
   width: 400px;
   margin: 40px auto 0;
+}
+
+#events-list h3 {
+  text-align: center;
+  margin: 80px 0 40px;
 }
 
 #left-photos, #right-photos {
@@ -351,4 +365,73 @@ textarea {
   #compost-paragraph, #bulbs-paragraph, #how-to-get-there {
     text-align: left;
   }
+
+  /* events.html     */
+
+  #events-wrapper {
+    flex-direction: column;
+  }
+
+  #events-list {
+    width: 100%;
+    margin-top: -150px;
+  }
+
+  #events-table {
+    width: 400px;
+    margin: 60px auto 0;
+  }
+
+  .column-2 {
+    padding-left: 30px;
+  }
+  #events-table tr {
+    line-height: 2;
+  }
+
+   #left-photos, #right-photos {
+     width: 100%;
+     flex-direction: row;
+   }
+
+   #red-gladiolus, #dahlia, #sunflower, #gladiolus {
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+   }
+
+   #events-list h3 {
+    margin: 40px 0 0;
+   }
 }
+
+/* screen sizes of 620px or smaller */
+@media screen and (max-width: 620px) {
+  #logo {
+    width: 310px;
+    margin: 10px auto;
+  }
+}
+
+/* screen sizes of 500px or smaller */
+@media screen and (max-width: 500px) {
+  #events-list {
+    font-size: 80%;
+  }
+  #events-table {
+    width: 300px;
+    margin: 60px auto 0;
+  }
+
+  .column-2 {
+    padding: 0;
+  }
+
+  #red-gladiolus, #dahlia, #sunflower, #gladiolus {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
+
