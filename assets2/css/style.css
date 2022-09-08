@@ -314,6 +314,9 @@ textarea {
     margin: 0 auto;
   }
 
+  #location h2 {
+    margin-top: 70px;
+  }
   #compost-photo, #bulbs-photo {
     width: 350px;
     height: auto;
@@ -327,3 +330,25 @@ textarea {
 
 /* screen sizes of 780px or smaller */
 @media screen and (max-width: 780px) {
+  #about, #location {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #compost-wrapper, #bulbs-wrapper, #location-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  #compost-description, #bulbs-description, #directions {
+    padding: 0;
+  }
+
+  #compost-photo, #bulbs-photo, #directions {
+    margin-top: 40px;
+  }
+
+  #compost-paragraph, #bulbs-paragraph, #how-to-get-there {
+    text-align: left;
+  }
+}
