@@ -54,7 +54,7 @@ li {
   margin: 0 auto;
 }
 
-#welcome, #events, #location {
+#welcome, #events {
     margin-top: 70px;
 }
 
@@ -146,6 +146,10 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   left: 30%;
   bottom: 60px;
 } 
+
+#location {
+  margin-top: 10px;
+}
 
 #location-wrapper {
     display: flex;
@@ -340,10 +344,6 @@ textarea {
     margin: 0 auto;
   }
 
-  #location h2 {
-    margin-top: 40px;
-  }
-
   #compost-photo, #bulbs-photo {
     width: 350px;
     height: auto;
@@ -372,10 +372,6 @@ textarea {
 
   #compost-description, #bulbs-description, #directions {
     padding: 0;
-  }
-
-  #directions, #location {
-    margin-top: 40px;
   }
 
   #compost-photo, #bulbs-photo, #map-container {
@@ -408,8 +404,12 @@ textarea {
 
 #location {
   clear: both;
+  padding-top: 70px;
 }
 
+#address {
+  margin: 30px 0 30px 60px;
+}
 /* events.html     */
 
 #events-wrapper {
