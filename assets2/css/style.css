@@ -31,17 +31,17 @@ body {
 a {
     text-decoration: none;
 }
- 
+
 li {
   list-style: none;
 }
-     
+
 #menu a {
   color: #fff;
   line-height: 1.4;
   margin-left: 5px;
 }
-  
+
 #menu {
   width: 100px;
   margin: 20px 0 0 40px;
@@ -117,7 +117,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 
 #events a:hover, #events-list a:hover {
   text-decoration: underline;
-} 
+}
 
 #more-events {
   margin-top: 30px;
@@ -145,7 +145,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   position: relative;
   left: 30%;
   bottom: 60px;
-} 
+}
 
 #location {
   margin-top: 10px;
@@ -204,15 +204,15 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   margin-top: 80px;
   text-align: center;
 }
-  
+
 #events-list ul {
   margin-top: 60px;
 }
-  
+
 #events-wrapper {
   display: flex;
 }
-  
+
 #events-list {
   width: 46%;
   order: 2;
@@ -243,18 +243,18 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 #right-photos {
   order: 3;
 }
-  
+
 #events-table tr {
   line-height: 3;
 }
-  
+
 #red-gladiolus, #dahlia, #sunflower, #gladiolus {
   width: 70%;
   height: auto;
   border-radius: 50%;
   margin-top: 60px;
 }
-  
+
 /* ---------    contact.html  -------- */
 #contact-bg-image {
   width: 100%;
@@ -323,7 +323,7 @@ textarea {
   display: block;
   width: 100%;
   height: 150px;
-  margin-top: 5px; 
+  margin-top: 5px;
   font-size: 110%;
   background-color: rgba(230,230,230,0.5);
   padding: 0 5px;
@@ -347,7 +347,7 @@ textarea {
   #compost-photo, #bulbs-photo {
     width: 350px;
     height: auto;
-  }  
+  }
 
   #map-container {
     width: 350px;
@@ -431,7 +431,7 @@ textarea {
 .column-2 {
   padding-left: 30px;
 }
-  
+
 #events-table tr {
   line-height: 2;
 }
@@ -514,5 +514,3 @@ textarea {
     margin-left: 5px;
   }
 }
-
-
