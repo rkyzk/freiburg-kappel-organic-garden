@@ -43,9 +43,9 @@ li {
 }
 
 #menu {
-  width: 100px;
+  width: 70px;
   margin: 20px 0 0 40px;
-  padding: 15px 20px;
+  padding: 10px 15px;
   background-color: rgba(20, 37, 125, 0.8);
 }
 
@@ -179,7 +179,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 .social-networks {
   display: flex;
   width: 90px;
-  margin: 40px auto 5px;
+  margin: 10px auto 5px;
 }
 
 .social-networks li {
@@ -203,7 +203,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 #events-wrapper {
   width: 85%;
   height: auto;
-  padding: 60px 0 40px;
+  padding-top: 60px;
   margin: 0 auto;
 } 
 
@@ -219,7 +219,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
  align-items: center;
 } 
 
-#events-litst {
+#events-list {
   width: 100%;
 }
 
@@ -232,15 +232,17 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   line-height: 3;
 }
 
+#events-list h3 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+}
+
 #bottom-part {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-
-#bottom-part h3 {
-  margin-top: 60px;
-}
-
 
 /* ---------    contact.html  -------- */
 #contact-bg-image {
@@ -348,6 +350,10 @@ textarea {
 
 /* screen sizes of 780px or smaller */
 @media screen and (max-width: 780px) {
+  #bg-image, #events-bg-image {
+    height: 400px;
+  }
+
   #about, #location {
     width: 80%;
     margin: 0 auto;
@@ -383,58 +389,58 @@ textarea {
     float: right;
   }
 
-#girl-photo {
-  float: left;
-  left: auto;
-  bottom: auto;
-}
+  #girl-photo {
+    float: left;
+    left: auto;
+    bottom: auto;
+  }
 
-#location {
-  clear: both;
-  padding-top: 70px;
-}
+  #location {
+    clear: both;
+    padding-top: 70px;
+  }
 
-#address {
-  margin: 30px 0 30px 60px;
-}
+  #address {
+    margin: 30px 0 30px 60px;
+  }
 
 /* -------- events.html   -----------------------  */
 
-#events-wrapper {
-  width: 90%;
-  height: 600px;
-  margin: 0 auto;
-}
+  #events-wrapper {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
 
-#events-table {
-  position: relative;
-  right: 60px;
-}
+  #events-list {
+    margin: 20px auto;
+  }
 
-.column-2 {
-  padding-left: 30px;
-}
+  .column-2 {
+    padding-left: 30px;
+  }
 
-#events-table tr {
-  line-height: 2;
-}
+  #events-table tr {
+    line-height: 2;
+  }
 
-#red-gladiolus, #dahlia, #sunflower, #gladiolus {
+  #red-gladiolus, #dahlia, #sunflower, #gladiolus {
     width: 120px;
     height: 120px;
     border-radius: 50%;
   }
 
   #events-list h3 {
-    margin: 40px 0 0;
-    width: 330px;
+    top: 0;
+    margin-top: 30px;
   }
 }
 
 /* screen sizes of 620px or smaller */
 @media screen and (max-width: 620px) {
   #logo {
-    width: 310px;
+    width: 290px;
     margin: 10px auto;
   }
 
@@ -450,8 +456,10 @@ textarea {
 
 /* screen sizes of 500px or smaller */
 @media screen and (max-width: 500px) {
-  #bg-image, #events-bg-image {
-    height: 450px;
+  #menu {
+    margin: 20px 0 0 20px;
+    padding: 10px 15px;
+    background-color: rgba(20, 37, 125, 0.8);
   }
 
   #about, #location {
@@ -471,29 +479,20 @@ textarea {
 
   /* -----------  events.wrapper ------- */
   #events-wrapper {
-    height: 500px;
-  }
-
-  #events-list {
     font-size: 80%;
-    margin-top: 40px;
   }
 
   #events-table {
-    width: 300px;
-    margin: 50px auto 0;
+    width: 290px;
   }
 
-  #events-list h3 {
-    margin-top: 20px;
-  }
   .column-2 {
     padding: 0;
   }
 
   #red-gladiolus, #dahlia, #sunflower, #gladiolus {
-    width: 100px;
-    height: 100px;
+    width: 24%;
+    height: auto;
     border-radius: 50%;
   }
 
