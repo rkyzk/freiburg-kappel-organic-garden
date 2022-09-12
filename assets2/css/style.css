@@ -202,60 +202,45 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 
 #events-wrapper {
   width: 85%;
-  height: 700px;
+  height: auto;
   padding: 60px 0 40px;
   margin: 0 auto;
 } 
 
-#left-photos, #right-photos {
-  width: 27%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+#red-gladiolus, #dahlia, #sunflower, #gladiolus {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
 }
 
-#left-photos {
-  float: left;
-}
+#top-part {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+} 
 
-#right-photos {
-  float: right;
-}
-
-#events-list {
-  width: 46%;
-  margin: 70px auto 0;
-}
-
-#events-list h2 {
-  text-align: center;
-}
-
-#events-list ul {
-  margin-top: 60px;
+#events-litst {
+  width: 100%;
 }
 
 #events-table {
   width: 400px;
-  margin: 40px auto 0;
-}
-
-#events-list h3 {
-  text-align: center;
-  margin: 70px 0 0;
+  margin: 0 auto;
 }
 
 #events-table tr {
   line-height: 3;
 }
 
-#red-gladiolus, #dahlia, #sunflower, #gladiolus {
-  width: 70%;
-  height: auto;
-  border-radius: 50%;
+#bottom-part {
+  display: flex;
+  justify-content: space-between;
 }
+
+#bottom-part h3 {
+  margin-top: 60px;
+}
+
 
 /* ---------    contact.html  -------- */
 #contact-bg-image {
