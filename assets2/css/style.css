@@ -197,25 +197,44 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   width: 100%;
   height: 600px;
   overflow: hidden;
-  background: url('../images/narcissi.jpg') no-repeat center top;
+  background: url('../images/daffodils.jpg') no-repeat center top;
+}
+
+#events-wrapper {
+  width: 85%;
+  height: 700px;
+  padding: 60px 0 40px;
+  margin: 0 auto;
+} 
+
+#left-photos, #right-photos {
+  width: 27%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-photos {
+  float: left;
+}
+
+#right-photos {
+  float: right;
+}
+
+#events-list {
+  width: 46%;
+  margin: 70px auto 0;
 }
 
 #events-list h2 {
-  margin-top: 80px;
   text-align: center;
 }
 
 #events-list ul {
   margin-top: 60px;
-}
-
-#events-wrapper {
-  display: flex;
-}
-
-#events-list {
-  width: 46%;
-  order: 2;
 }
 
 #events-table {
@@ -225,23 +244,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 
 #events-list h3 {
   text-align: center;
-  margin: 80px 0 40px;
-}
-
-#left-photos, #right-photos {
-  width: 27%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#left-photos {
-  order: 1;
-}
-
-#right-photos {
-  order: 3;
+  margin: 70px 0 0;
 }
 
 #events-table tr {
@@ -252,7 +255,6 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   width: 70%;
   height: auto;
   border-radius: 50%;
-  margin-top: 60px;
 }
 
 /* ---------    contact.html  -------- */
@@ -383,18 +385,18 @@ textarea {
     text-align: left;
   }
 
-#gardening-photo, #girl-photo, #gladiolus-photo {
-  width: 60%;
-  height: auto;
-}
+  #gardening-photo, #girl-photo, #gladiolus-photo {
+    width: 60%;
+    height: auto;
+  }
 
-#gardening-photo {
-  float: left;
-}
+  #gardening-photo {
+    float: left;
+  }
 
-#gladiolus-photo {
-  float: right;
-}
+  #gladiolus-photo {
+    float: right;
+  }
 
 #girl-photo {
   float: left;
@@ -410,22 +412,18 @@ textarea {
 #address {
   margin: 30px 0 30px 60px;
 }
-/* events.html     */
+
+/* -------- events.html   -----------------------  */
 
 #events-wrapper {
-  flex-direction: column;
   width: 90%;
+  height: 600px;
   margin: 0 auto;
 }
 
-#events-list {
-  width: 100%;
-  margin-top: -150px;
-}
-
 #events-table {
-  width: 400px;
-  margin: 60px auto 0;
+  position: relative;
+  right: 60px;
 }
 
 .column-2 {
@@ -436,12 +434,6 @@ textarea {
   line-height: 2;
 }
 
-#left-photos, #right-photos {
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 #red-gladiolus, #dahlia, #sunflower, #gladiolus {
     width: 120px;
     height: 120px;
@@ -450,6 +442,7 @@ textarea {
 
   #events-list h3 {
     margin: 40px 0 0;
+    width: 330px;
   }
 }
 
@@ -490,16 +483,25 @@ textarea {
     width: 300px;
     height: 225px;
   }
+
+  /* -----------  events.wrapper ------- */
+  #events-wrapper {
+    height: 500px;
+  }
+
   #events-list {
     font-size: 80%;
-    margin-top: -120px;;
+    margin-top: 40px;
   }
 
   #events-table {
     width: 300px;
-    margin: 60px auto 0;
+    margin: 50px auto 0;
   }
 
+  #events-list h3 {
+    margin-top: 20px;
+  }
   .column-2 {
     padding: 0;
   }
