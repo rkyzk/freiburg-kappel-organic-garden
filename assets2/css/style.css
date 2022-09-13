@@ -117,7 +117,8 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #events-photos {
-  margin-top: 60px;
+  width: 80%;
+  margin: 60px auto 0;
 }
 
 #gardening-photo, #girl-photo, #gladiolus-photo {
@@ -135,9 +136,10 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 
 #girl-photo {
   clear: both;
+  display: block;
+  margin: 0 auto;
   position: relative;
-  left: 30%;
-  bottom: 60px;
+  bottom: 50px;
 }
 
 #location {
@@ -326,6 +328,10 @@ textarea {
     margin: 0 auto;
   }
 
+  #events-photos {
+    width: 90%;
+  }
+
   #location-wrapper {
     margin-top: 30px;
   }
@@ -395,7 +401,6 @@ textarea {
 
   #girl-photo {
     float: left;
-    left: auto;
     bottom: auto;
   }
 
