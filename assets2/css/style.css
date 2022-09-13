@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 #logo {
-    font-family: "Nato Serif HK", sans-serif;
+    font-family: Serif;
     letter-spacing: 2px;
     color: #fff;
     font-size: 160%;
@@ -29,7 +29,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
@@ -75,18 +75,18 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 .flower-icon-left, .flower-icon-right {
-  width: 80px;
+  width: 60px;
   height: auto;
   position: relative;
   top: 10px;
 }
 
 .flower-icon-left {
-  right: 20px;
+  right: 10px;
 }
 
 .flower-icon-right {
-  left: 20px;
+  left: 10px;
 }
 
 #compost-wrapper, #bulbs-wrapper {
@@ -99,8 +99,8 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #compost-photo, #bulbs-photo {
-  width: 380px;
-  height: 280px;
+  width: 300px;
+  height: 221px;
 }
 
 #compost-description ul {
@@ -113,11 +113,11 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #more-events {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 #events-photos {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 #gardening-photo, #girl-photo, #gladiolus-photo {
@@ -141,7 +141,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #location {
-  margin-top: 10px;
+  padding-bottom: 20px;
 }
 
 #location-wrapper {
@@ -326,16 +326,15 @@ textarea {
     margin: 0 auto;
   }
 
-  #compost-photo, #bulbs-photo {
-    width: 350px;
-    height: auto;
+  #location-wrapper {
+    margin-top: 30px;
   }
 
   #map-container {
     width: 350px;
     height: 260px;
   }
-/*        contct.html ------------- */
+/* --------- contact.html ------------- */
   #form-wrapper {
     margin-top: 20px;
   }
@@ -352,8 +351,20 @@ textarea {
     margin: 0 auto;
   }
 
+  #welcome, #events {
+    margin-top: 50px;
+  }
+
   #compost-wrapper, #bulbs-wrapper, #location-wrapper {
     display: block;
+  }
+
+  #compost-wrapper {
+    margin-top: 40px;
+  }
+
+  #bulbs-wrapper {
+    margin-top: 60px;
   }
 
   #compost-description, #bulbs-description, #directions {
@@ -362,7 +373,7 @@ textarea {
 
   #compost-photo, #bulbs-photo, #map-container {
     display: block;
-    margin: 40px auto 0;
+    margin: 20px auto 0;
   }
 
   #compost-paragraph, #bulbs-paragraph, #how-to-get-there {
@@ -370,7 +381,7 @@ textarea {
   }
 
   #gardening-photo, #girl-photo, #gladiolus-photo {
-    width: 60%;
+    width: 55%;
     height: auto;
   }
 
@@ -466,9 +477,22 @@ textarea {
     margin: 0 auto;
   }
 
+  #welcome, #events {
+    margin-top: 30px;
+  }
+
   #compost-photo, #bulbs-photo {
     width: 300px;
     height: auto;
+  }
+
+  #gardening-photo, #girl-photo, #gladiolus-photo {
+    width: 70%;
+    height: auto;
+  }
+
+  #location {
+    padding-top: 30px;
   }
 
   #map-container {
