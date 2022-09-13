@@ -66,13 +66,6 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   text-align: center;
 }
 
-.gray-flower-icon {
-  width: 22px;
-  height: 22px;
-  position: relative;
-  top: 4px;
-}
-
 .flower-icon {
   width: 30px;
   height: auto;
@@ -263,7 +256,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   margin: 0 auto;
   background-color: rgba(30, 30, 30, 0.8);
   color: #fff;
-  padding: 20px 0 30px;
+  padding: 20px 0 20px;
 }
 
 #form-contents {
@@ -326,7 +319,7 @@ textarea {
   color: #fff;
 }
 
-/* screen sizes of 1000px or smaller */
+/* screen sizes of 1000px and below */
 @media screen and (max-width: 1000px) {
   #about, #location {
     width: 90%;
@@ -342,9 +335,9 @@ textarea {
     width: 350px;
     height: 260px;
   }
-
+/*        contct.html ------------- */
   #form-wrapper {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 }
 
@@ -437,7 +430,7 @@ textarea {
   }
 }
 
-/* screen sizes of 620px or smaller */
+/* screen sizes of 620px and below */
 @media screen and (max-width: 620px) {
   #logo {
     width: 290px;
@@ -448,13 +441,19 @@ textarea {
     text-align: left;
   }
 
-  /*   contact.html   */
+  /* ---------- contact.html -----------------  */
   #form-bg {
     width: 80%;
   }
 }
 
-/* screen sizes of 500px or smaller */
+/* screen sizes of 550px and below */
+@media screen and (max-width: 550px) {
+  #form-contents {
+    font-size: 90%;
+  }
+
+/* screen sizes of 500px and below */
 @media screen and (max-width: 500px) {
   #menu {
     margin: 20px 0 0 20px;
@@ -496,7 +495,12 @@ textarea {
     border-radius: 50%;
   }
 
+  /* ------ contct.html ---------------- */
+  #form-bg {
+    width: 90%;
+  }
+
   .radio-options label {
-    margin-left: 5px;
+    margin-left: 3px;
   }
 }
