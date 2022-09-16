@@ -248,6 +248,12 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   padding-bottom: 40px;
 }
 
+#logo-bg {
+  width: 575px;
+  height: 40px;
+  background-color: rgba(30, 30, 30, 0.4);
+}
+
 #form-wrapper {
   width: 100%;
 }
