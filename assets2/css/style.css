@@ -454,13 +454,31 @@ textarea {
     top: 0;
     margin-top: 30px;
   }
+
+  #logo-bg {
+    width: 575px;
+    height: 40px;
+    background-color: rgba(30, 30, 30, 0.4);
+  }
 }
 
 /* screen sizes of 620px and below */
 @media screen and (max-width: 620px) {
+   
+  #bg-image, #events-bg-image, #contact-bg-image {
+    padding-top: 15px;
+  }
+
   #logo {
-    width: 290px;
-    margin: 10px auto;
+    width: 265px;
+    margin: 0 auto;
+  }
+
+  #logo-bg {
+    width: 265px;
+    height: 80px;
+    background-color: rgba(30, 30, 30, 0.4);
+    margin: 0 auto;
   }
 
   #events > p {
