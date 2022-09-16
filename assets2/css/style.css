@@ -62,6 +62,10 @@ li {
   margin-top: 20px;
 }
 
+#welcome p, #compost-paragraph, #bulbs-paragraph {
+  text-align: justify;
+}
+
 h2, #events > p, #events h3, .sign-up, #bulbs-date {
   text-align: center;
 }
@@ -82,11 +86,11 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 .flower-icon-left {
-  right: 10px;
+  right: 60px;
 }
 
 .flower-icon-right {
-  left: 10px;
+  left: 60px;
 }
 
 #compost-wrapper, #bulbs-wrapper {
@@ -104,7 +108,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #compost-description ul {
-  width: 300px;
+  width: 250px;
   margin: 20px auto;
 }
 
@@ -168,7 +172,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #how-to-get-there {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .social-networks {
@@ -383,13 +387,13 @@ textarea {
     padding: 0;
   }
 
+  #directions {
+    margin-top: 30px;
+  }
+
   #compost-photo, #bulbs-photo, #map-container {
     display: block;
     margin: 20px auto 0;
-  }
-
-  #compost-paragraph, #bulbs-paragraph, #how-to-get-there {
-    text-align: left;
   }
 
   #gardening-photo, #girl-photo, #gladiolus-photo {
@@ -416,7 +420,7 @@ textarea {
   }
 
   #address {
-    margin: 30px 0 30px 60px;
+    margin-left: 60px;
   }
 
 /* -------- events.html   -----------------------  */
@@ -490,6 +494,14 @@ textarea {
 
   #welcome, #events {
     margin-top: 30px;
+  }
+
+  .flower-icon-left {
+    right: 10px;
+  }
+  
+  .flower-icon-right {
+    left: 10px;
   }
 
   #compost-photo, #bulbs-photo {
