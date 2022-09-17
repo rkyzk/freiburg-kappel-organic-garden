@@ -32,6 +32,14 @@ a {
   text-decoration: none;
 }
 
+#menu a:hover {
+  border-bottom: 1px solid #fff; 
+}
+
+.active {
+  border-bottom: 1px solid #fff; 
+}
+
 li {
   list-style: none;
 }
@@ -223,6 +231,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #events-table {
+  font-size: 110%;
   width: 400px;
   margin: 0 auto;
 }
@@ -325,10 +334,14 @@ textarea {
 
 #btn {
   font-size: 110%;
-  background-color: hsl(299, 83%, 66%);
+  background-color: rgb(238, 96, 240);
   padding: 10px 30px;
   border-radius: 5%;
   color: #fff;
+}
+
+#btn:hover {
+  background-color: rgb(177, 45, 180);
 }
 
 /* screen sizes of 1000px and below */
@@ -436,6 +449,10 @@ textarea {
     margin: 20px auto;
   }
 
+  #events-table {
+    font-size: 100%;
+  }
+
   .column-2 {
     padding-left: 30px;
   }
@@ -463,7 +480,7 @@ textarea {
 }
 
 /* screen sizes of 620px and below */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 630px) {
    
   #bg-image, #events-bg-image, #contact-bg-image {
     padding-top: 15px;
@@ -482,7 +499,7 @@ textarea {
   }
 
   #events > p {
-    text-align: left;
+    text-align: justify;
   }
 
   /* ---------- contact.html -----------------  */
@@ -495,7 +512,7 @@ textarea {
 @media screen and (max-width: 550px) {
   #form-contents {
     font-size: 90%;
-  }
+}
 
 /* screen sizes of 500px and below */
 @media screen and (max-width: 500px) {
