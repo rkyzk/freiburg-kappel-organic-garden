@@ -47,13 +47,12 @@ li {
 #menu a {
   color: #fff;
   line-height: 1.4;
-  margin-left: 5px;
 }
 
 #menu {
   width: 70px;
   margin: 20px 0 0 40px;
-  padding: 10px 15px;
+  padding: 10px 20px;
   background-color: rgba(20, 37, 125, 0.8);
 }
 
@@ -121,7 +120,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #events a:hover, #events-list a:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid; 
 }
 
 #more-events {
@@ -377,7 +376,6 @@ textarea {
 
   #about, #location {
     width: 80%;
-    margin: 0 auto;
   }
 
   #welcome, #events {
@@ -420,20 +418,24 @@ textarea {
 
   #gladiolus-photo {
     float: right;
+    position: relative;
+    bottom: 40px;
+    z-index: 2;
   }
 
   #girl-photo {
     float: left;
-    bottom: auto;
+    bottom: 80px;
+    z-index: 3;
   }
 
   #location {
     clear: both;
-    padding-top: 70px;
   }
 
   #address {
-    margin-left: 60px;
+    width: 125px;
+    margin: 30px auto;
   }
 
 /* -------- events.html   -----------------------  */
@@ -480,8 +482,7 @@ textarea {
 }
 
 /* screen sizes of 620px and below */
-@media screen and (max-width: 630px) {
-   
+@media screen and (max-width: 620px) {  
   #bg-image, #events-bg-image, #contact-bg-image {
     padding-top: 15px;
   }
@@ -498,10 +499,17 @@ textarea {
     margin: 0 auto;
   }
 
+  #menu {
+    margin-left: 30px;
+  }
+
+  #about, #location {
+    width: 90%;
+  }
+
   #events > p {
     text-align: justify;
   }
-
   /* ---------- contact.html -----------------  */
   #form-bg {
     width: 80%;
@@ -516,17 +524,6 @@ textarea {
 
 /* screen sizes of 500px and below */
 @media screen and (max-width: 500px) {
-  #menu {
-    margin: 20px 0 0 20px;
-    padding: 10px 15px;
-    background-color: rgba(20, 37, 125, 0.8);
-  }
-
-  #about, #location {
-    width: 90%;
-    margin: 0 auto;
-  }
-
   #welcome, #events {
     margin-top: 30px;
   }
@@ -539,18 +536,14 @@ textarea {
     left: 10px;
   }
 
-  #compost-photo, #bulbs-photo {
-    width: 300px;
-    height: auto;
-  }
-
   #gardening-photo, #girl-photo, #gladiolus-photo {
     width: 70%;
     height: auto;
+    bottom: auto;
   }
 
   #location {
-    padding-top: 30px;
+    padding-top: 40px;
   }
 
   #map-container {
