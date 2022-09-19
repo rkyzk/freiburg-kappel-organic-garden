@@ -21,11 +21,11 @@ body {
 }
 
 #logo {
-    font-family: Serif;
-    letter-spacing: 2px;
-    color: #fff;
-    font-size: 160%;
-    margin: 20px 20px;
+  font-family: Serif;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 160%;
+  margin: 20px 20px;
 }
 
 a {
@@ -158,10 +158,10 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #location-wrapper {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 60px;
-  }
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
 
 #map-container {
   width: 400px;
@@ -220,9 +220,9 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 #top-part {
- display: flex;
- justify-content: space-between;
- align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 } 
 
 #events-list {
