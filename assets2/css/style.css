@@ -470,14 +470,14 @@ textarea {
   }
 
   #events-list h3 {
-    top: 0;
+    top: auto;
     margin-top: 30px;
   }
 
+  /* ------contact.html ------------------ */
   #logo-bg {
     width: 575px;
     height: 40px;
-    background-color: rgba(30, 30, 30, 0.4);
   }
 }
 
@@ -500,7 +500,7 @@ textarea {
   }
 
   #menu {
-    margin-left: 30px;
+    margin: 5px 0 0 30px;
   }
 
   #about, #location {
@@ -551,7 +551,11 @@ textarea {
     height: 225px;
   }
 
-  /* -----------  events.wrapper ------- */
+  /* -----------  events.html ------- */
+  #events-bg-image {
+    background: url('../images/daffodils-2.jpg') no-repeat center top;
+  }
+
   #events-wrapper {
     font-size: 80%;
   }
@@ -567,7 +571,6 @@ textarea {
   #red-gladiolus, #dahlia, #sunflower, #gladiolus {
     width: 24%;
     height: auto;
-    border-radius: 50%;
   }
 
   /* ------ contct.html ---------------- */
