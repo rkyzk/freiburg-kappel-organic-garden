@@ -25,6 +25,9 @@ body {
   letter-spacing: 2px;
   color: #fff;
   font-size: 160%;
+}
+
+#bg-image h1, #events-bg-image h1 {
   margin: 20px 20px;
 }
 
@@ -254,15 +257,16 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 /* ---------    contact.html  -------- */
 #contact-bg-image {
   width: 100%;
-  height: auto;
+  max-height: 1536px;
   background: url('../images/tulip-field2.jpg') no-repeat top center;
   overflow: hidden;
 }
 
 #logo-bg {
-  width: 575px;
-  height: 40px;
+  width: 480px;
+  height: 33px;
   background-color: rgba(30, 30, 30, 0.4);
+  margin: 20px 0 0 20px;
 }
 
 #form-wrapper {
@@ -467,12 +471,6 @@ textarea {
     top: auto;
     margin-top: 30px;
   }
-
-  /* ------contact.html ------------------ */
-  #logo-bg {
-    width: 575px;
-    height: 40px;
-  }
 }
 
 /* screen sizes of 620px and below */
@@ -482,19 +480,22 @@ textarea {
   }
 
   #logo {
-    width: 265px;
+    width: 240px;
     margin: 0 auto;
   }
 
+  #bg-image h1, #events-bg-image h1 {
+    margin: auto;
+  }
+
   #logo-bg {
-    width: 265px;
-    height: 80px;
-    background-color: rgba(30, 30, 30, 0.4);
+    width: 240px;
+    height: 65px;
     margin: 0 auto;
   }
 
   #menu {
-    margin: 5px 0 0 30px;
+    margin: 20px 0 0 30px;
   }
 
   #about, #location {
