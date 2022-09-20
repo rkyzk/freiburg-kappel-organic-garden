@@ -1,7 +1,7 @@
 # Freiburg Kappel Organic Garden
 
 ## Description: 
-* This web application introduces Freiburg Kappel Organic Garden, where flowers are grown organically and visitors are welcomed throughout the year. (This place really exists but not at the address given on the page. The events described on the pages are not actually held-- they are my fantasies for the sake of this excercise.)
+* This web application introduces Freiburg Kappel Organic Garden, where flowers are grown organically and visitors are welcomed throughout the year. (This place really exists but not at the address given on the page. The events described on the pages are not actually held-- they are my fantasies for the sake of this assignment.)
 
 * On the web pages readers can see various photos of the garden and get information about the events and directions to the garden. The contact page offers a form, with which readers should be able to sign up for the events, or send messages to personnel. The input data will not be sent to a database, but the function will be implemented in the future.
 
@@ -9,19 +9,28 @@
 
 ## Images:
 
-!["Home" shown on a laptop](assets/images/large-screen-home.jpg)
+* "Home" page displayed on large screen
 
+![The top part of "Home" shown on a laptop](assets/images/home-large-screen-1.png)
+![The second part of "Home" shown on a laptop](assets/images/home-large-screen-2.png)
+![The third part of "Home" shown on a laptop](assets/images/home-large-screen-3.png)
+![The forth part of "Home" shown on a laptop](assets/images/home-large-screen-4.png)
+
+* "Home" page displayed on iPads and mobile phones
+
+!["Home" page displayed on an iPad](assets/images/home-ipad.png)
+
+!["Home" page displayed on a mobile phone](assets/images/home-mobile.png)
 ## Technologies used: 
 Html and CSS
 
 ## Credits: 
 * Some corrections and suggestions on the code were given by Jubril Acolade and were incorporated.
 
-* The texts were proofread by
-
 * Font Lato was imported from Google Fonts.
 
-* The three photos (the compost pile, a hand planting a bulb & a girl watering a red tulip) were downloaded from Shutterstock: 
+* Three of the photos (the compost pile, a
+ hand planting a bulb & a girl watering a red tulip) were downloaded from Shutterstock: 
 https://www.shutterstock.com/ja/image-photo/little-girl-posing-red-watering-can-104304419
 
 https://www.shutterstock.com/ja/image-photo/womens-hand-soilsoil-flower-bulbs-close-655746205
