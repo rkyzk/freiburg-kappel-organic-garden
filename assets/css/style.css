@@ -257,7 +257,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 /* ---------    contact.html  -------- */
 #contact-bg-image {
   width: 100%;
-  max-height: 1536px;
+  height: 1536px;
   background: url('../images/tulip-field2.jpg') no-repeat top center;
   overflow: hidden;
 }
