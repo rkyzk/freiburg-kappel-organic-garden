@@ -5,22 +5,10 @@
 
 * On the web pages readers can see various photos of the garden and get information about the events and directions to the garden. The contact page offers a form, with which readers should be able to sign up for the events, or send messages to personnel. The input data will not be sent to a database, but the function will be implemented in the future.
 
-* The pages are made responsive for desktops, laptops, ipads and mobile phones.
+!["Home" page displayed on different screen sizes](assets/images/home.png)
+!["Events" page displayed on different screen sizes](assets/images/events.png)
+!["Contact" page displayed on different screen sizes](assets/images/contact.png)
 
-## Images:
-
-* "Home" page displayed on large screen
-
-![The top part of "Home" shown on a laptop](assets/images/home-large-screen-1.png)
-![The second part of "Home" shown on a laptop](assets/images/home-large-screen-2.png)
-![The third part of "Home" shown on a laptop](assets/images/home-large-screen-3.png)
-![The forth part of "Home" shown on a laptop](assets/images/home-large-screen-4.png)
-
-* "Home" page displayed on iPads and mobile phones
-
-!["Home" page displayed on an iPad](assets/images/home-ipad.png)
-
-!["Home" page displayed on a mobile phone](assets/images/home-mobile.png)
 ## Technologies used: 
 Html and CSS
 
