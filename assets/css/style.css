@@ -59,7 +59,7 @@ li {
   background-color: rgba(20, 37, 125, 0.8);
 }
 
-#about, #location {
+#welcome, #events, #location {
   width: 75%;
   margin: 0 auto;
 }
@@ -344,9 +344,13 @@ textarea {
 
 /* screen sizes of 1000px and below */
 @media screen and (max-width: 1000px) {
-  #about, #location {
+  #welcome, #events, #location {
     width: 90%;
     margin: 0 auto;
+  }
+
+  #welcome, #events {
+    margin-top: 50px;
   }
 
   #events-photos {
@@ -361,6 +365,7 @@ textarea {
     width: 350px;
     height: 260px;
   }
+
 /* --------- contact.html ------------- */
   #form-wrapper {
     margin-top: 20px;
@@ -373,12 +378,8 @@ textarea {
     height: 400px;
   }
 
-  #about, #location {
+  #welcome, #events, #location {
     width: 80%;
-  }
-
-  #welcome, #events {
-    margin-top: 50px;
   }
 
   #compost-wrapper, #bulbs-wrapper, #location-wrapper {
@@ -430,6 +431,8 @@ textarea {
 
   #location {
     clear: both;
+    position: relative;
+    bottom: 20px;
   }
 
   #address {
@@ -499,7 +502,7 @@ textarea {
     margin: 20px 0 0 30px;
   }
 
-  #about, #location {
+  #welcome, #events, #location {
     width: 90%;
   }
 
@@ -523,12 +526,19 @@ textarea {
     margin-top: 30px;
   }
 
+  .flower-icon-left, .flower-icon-right {
+    width: 55px;
+    height: auto;
+    position: relative;
+    top: 7px;
+  }
+
   .flower-icon-left {
-    right: 10px;
+    right: 8px;
   }
   
   .flower-icon-right {
-    left: 10px;
+    left: 8px;
   }
 
   #gardening-photo, #girl-photo, #gladiolus-photo {
