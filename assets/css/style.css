@@ -260,13 +260,12 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   max-height: 1536px;
   background: url('../images/tulip-field2.jpg') no-repeat top center;
   overflow: hidden;
-  padding-bottom: 40px;
 }
 
 #logo-bg {
   width: 480px;
   height: 33px;
-  background-color: rgba(30, 30, 30, 0.4);
+  background-color: rgba(30, 200, 30, 0.4);
   margin: 20px 0 0 20px;
 }
 
