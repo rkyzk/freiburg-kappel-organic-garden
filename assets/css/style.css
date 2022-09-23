@@ -89,10 +89,10 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 .flower-icon-left, .flower-icon-right {
-  width: 60px;
+  width: 55px;
   height: auto;
   position: relative;
-  top: 10px;
+  top: 7px;
 }
 
 .flower-icon-left {
@@ -332,14 +332,14 @@ textarea {
 
 #btn {
   font-size: 110%;
-  background-color: rgb(238, 96, 240);
+  background-color: rgb(131, 79, 24);
   padding: 10px 30px;
   border-radius: 5%;
   color: #fff;
 }
 
 #btn:hover {
-  background-color: rgb(177, 45, 180);
+  background-color: rgb(102, 74, 29);
 }
 
 /* screen sizes of 1000px and below */
@@ -524,13 +524,6 @@ textarea {
 @media screen and (max-width: 500px) {
   #welcome, #events {
     margin-top: 30px;
-  }
-
-  .flower-icon-left, .flower-icon-right {
-    width: 55px;
-    height: auto;
-    position: relative;
-    top: 7px;
   }
 
   .flower-icon-left {
