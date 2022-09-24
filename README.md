@@ -10,7 +10,7 @@
 ## Features
 ### Navigation (Common for all three pages)
 
-<img src="assets/images/readme/navigation.png" alt="navigation" width="50%"/>
+![navigation](assets/images/readme/navigation.png)
 
 * The navigation shows the name of the garden in the left corner: Freiburg Kappel Organic Garden, which links to the top of “Home” page. 
 * Just below that, the navigation menu is placed, offering links to different pages: Home, Events and Contact.  
@@ -21,15 +21,16 @@
 ### "Home" page
 #### Welcome section 
 
-<img src="assets/images/readme/welcome.png" alt="welcome" width="50%"/>
+![welcome](assets/images/readme/welcome.png)
 
 * Welcome section offers a welcome message, invites users to visit the place and provides them with a general overview of the garden.
 * Flower icons are used for the title of this section (in other sections and paragraphs as well.)
 * These make the page more visually enjoyable.    
 
 #### Join us section 
-<img src="assets/images/readme/join-us1.png" alt="join us" width="50%"/>
-<img src="assets/images/readme/join-us2.png" alt="join us" width="50%"/>
+
+![join us](assets/images/readme/join-us.png)
+![join us](assets/images/readme/join-us2.png)
 
 * The title and the one-line introduction call users to participate in the events at the garden. 
 * The section introduces two upcoming events.
@@ -41,13 +42,14 @@
 * At the bottom of the section, additional photos are displayed so users can get an impression of what the garden is like.  
 
 #### The Where we are section
-<img src="assets/images/readme/where-we-are.png" alt="where we are" width="50%"/>
+
+![where we are](assets/images/readme/where-we-are.png)
 
 * The section shows a map imported from google map and the address of the garden as well as directions, all of which are valuable for those who plan to visit the place.    
 
 #### The Footer (common for "Home" and "Events" pages)
 
-<img src="assets/images/readme/footer.png" alt="footer" width="50%"/>
+![footer](assets/images/readme/footer.png)
 
 * The footer offers links to social networks: Facebook, Twitter and Instagram.
 * A floral graphic is applied as decoration, adding an elegant style to the page. 
