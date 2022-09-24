@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+/* Rules common for all 3 pages   ----------- */
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +11,6 @@ body {
   font-family: Lato, sans-serif;
   font-weight: 300;
   color: #3a3a3a;
-}
-
-#bg-image {
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-  background: url('../images/tulip-field.jpg') no-repeat top center;
 }
 
 #logo {
@@ -35,6 +28,17 @@ a {
   text-decoration: none;
 }
 
+#menu {
+  width: 70px;
+  margin: 20px 0 0 40px;
+  padding: 10px 20px;
+  background-color: rgba(20, 37, 125, 0.8);
+}
+
+#menu a {
+  color: #fff;
+  line-height: 1.4;
+}
 #menu a:hover {
   border-bottom: 1px solid #fff; 
 }
@@ -47,16 +51,12 @@ li {
   list-style: none;
 }
 
-#menu a {
-  color: #fff;
-  line-height: 1.4;
-}
-
-#menu {
-  width: 70px;
-  margin: 20px 0 0 40px;
-  padding: 10px 20px;
-  background-color: rgba(20, 37, 125, 0.8);
+/* ---------    index.html ------------ */
+#bg-image {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: url('../images/tulip-field.jpg') no-repeat top center;
 }
 
 #welcome, #events, #location {
@@ -156,13 +156,8 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   bottom: 50px;
 }
 
-#location {
-  padding-bottom: 20px;
-}
-
 #location-wrapper {
   display: flex;
-  justify-content: space-around;
   margin-top: 60px;
 }
 
@@ -185,6 +180,11 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   margin-top: 20px;
 }
 
+#location {
+  padding-bottom: 20px;
+}
+
+/* Footer (common for index.html & events.html)  ------ */
 .social-networks {
   display: flex;
   width: 90px;
@@ -201,7 +201,6 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
 }
 
 /* ---------   events.html ---------------    */
-
 #events-bg-image {
   width: 100%;
   height: 600px;
@@ -222,7 +221,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   border-radius: 50%;
 }
 
-#top-part {
+#top-part, #bottom-part {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -246,12 +245,6 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   text-align: center;
   position: relative;
   top: 70px;
-}
-
-#bottom-part {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* ---------    contact.html  -------- */
@@ -343,19 +336,15 @@ textarea {
   background-color: rgb(102, 74, 29);
 }
 
-/* screen sizes of 1000px and below */
+/* --------- screen sizes of 1000px and below ------------ */
 @media screen and (max-width: 1000px) {
-  #welcome, #events, #location {
+  /* ------- index.html  -------------------*/
+  #welcome, #events, #location,  #events-photos {
     width: 90%;
-    margin: 0 auto;
   }
 
   #welcome, #events {
     margin-top: 50px;
-  }
-
-  #events-photos {
-    width: 90%;
   }
 
   #location-wrapper {
