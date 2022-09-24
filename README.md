@@ -1,12 +1,12 @@
 # Freiburg Kappel Organic Garden
 
 ## Description: 
-* This web application introduces Freiburg Kappel Organic Garden, where flowers are grown organically and visitors are welcomed throughout the year. (This place really exists but not at the address given on the page. The events described on the pages are not actually held-- they are my fantasies for the sake of this assignment.)
+* This web application introduces Freiburg Kappel Organic Garden, where flowers are grown organically and visitors are welcomed throughout the year. 
 
-* On the web pages readers can see various photos of the garden and get information about the events and directions to the garden. The contact page offers a form, with which readers should be able to sign up for the events, or send messages to personnel. The input data will not be sent to a database, but the function will be implemented in the future.
+* On the web pages readers can see various photos of the garden and get information about the events as well as directions to the garden. The contact page offers a form, with which readers should be able to sign up for the events, or send messages to personnel. The input data will not be sent to a database, but the function will be implemented in the future.
 
-!["Home" page displayed on different screen sizes](assets/images/home.png)
-!["Events" page displayed on different screen sizes](assets/images/events.png)
+!["Home" page displayed on different screen sizes](assets/images/readme/home.png)
+!["Events" page displayed on different screen sizes](assets/images/readme/events.png)
 !["Contact" page displayed on different screen sizes](assets/images/contact.png)
 
 ## Technologies used: 
