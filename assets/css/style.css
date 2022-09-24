@@ -260,7 +260,7 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   height: auto;
   background: url('../images/tulip-field2.jpg') no-repeat top center;
   overflow: hidden;
-  padding-bottom: 180px;
+  padding-bottom: 200px;
 }
 
 #logo-bg {
@@ -289,8 +289,9 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   margin: 0 auto;
 }
 
-#form-contents h3 {
+#form-contents h2 {
   text-align: center;
+  font-size: 110%
 }
 
 #personal-data label, .radio-options {
@@ -367,6 +368,10 @@ textarea {
   }
 
 /* --------- contact.html ------------- */
+  #contact-bg-image {
+     padding-bottom: 50px;
+  }
+
   #form-wrapper {
     margin-top: 20px;
   }
