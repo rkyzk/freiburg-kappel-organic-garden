@@ -9,7 +9,9 @@
 
 ## Features
 ### Navigation (Common for all three pages)
-![Navigation](assets/images/readme/navigation.png)
+
+<img src="assets/images/readme/navigation.png" alt="navigation" width="50%"/>
+
 * The navigation shows the name of the garden in the left corner: Freiburg Kappel Organic Garden, which links to the top of “Home” page. 
 * Just below that, the navigation menu is placed, offering links to different pages: Home, Events and Contact.  
 * The dark blue color of the menu makes the white letters easily readable.  
@@ -18,14 +20,16 @@
 
 ### "Home" page
 #### Welcome section 
-![welcome section](assets/images/readme/welcome.png)
+
+<img src="assets/images/readme/welcome.png" alt="welcome" width="50%"/>
+
 * Welcome section offers a welcome message, invites users to visit the place and provides them with a general overview of the garden.
 * Flower icons are used for the title of this section (in other sections and paragraphs as well.)
 * These make the page more visually enjoyable.    
 
 #### Join us section 
-![joing us section](assets/images/readme/join-us1.png)
-![joing us section](assets/images/readme/join-us2.png)
+<img src="assets/images/readme/join-us1.png" alt="join us" width="50%"/>
+<img src="assets/images/readme/join-us2.png" alt="join us" width="50%"/>
 
 * The title and the one-line introduction call users to participate in the events at the garden. 
 * The section introduces two upcoming events.
@@ -37,19 +41,21 @@
 * At the bottom of the section, additional photos are displayed so users can get an impression of what the garden is like.  
 
 #### The Where we are section
-![where we are](assets/images/readme/where-we-are.png)
+<img src="assets/images/readme/where-we-are.png" alt="where we are" width="50%"/>
 
 * The section shows a map imported from google map and the address of the garden as well as directions, all of which are valuable for those who plan to visit the place.    
 
 #### The Footer (common for "Home" and "Events" pages)
-![footer](assets/images/readme/footer.png)
+
+<img src="assets/images/readme/footer.png" alt="footer" width="50%"/>
+
 * The footer offers links to social networks: Facebook, Twitter and Instagram.
 * A floral graphic is applied as decoration, adding an elegant style to the page. 
 
 #### "Events" page 
 !["Events" page displayed on different screen sizes](assets/images/readme/events.png)
 
-![events table](assets/images/readme/events-table.png)
+<img src="assets/images/readme/events-table.png" alt="evnets table" width="50%"/>
 
 * The page includes a table where the events at the garden are listed in the calendrical order.
 * This list is valuable since it informs users about the events held at the garden throughout the year.   
@@ -105,7 +111,7 @@ The steps to deploy:
 * Under “Build and deployment,” select “deploy from a branch,” “main” and “/root” as in the photo below.
 * Then the link to the website will appear on the top of the page. 
 * the live link to the website: [Freiburg Kappel Organic Garden](https://rkyzk.github.io/freiburg-kappel-organic-garden/)
-![github page](assets/images/readme/github.png)
+<img src="assets/images/readme/github.png" alt="git hub page" width="50%"/>
 
 ## Credits
 ### Content
