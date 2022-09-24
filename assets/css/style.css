@@ -326,14 +326,14 @@ textarea {
 
 #btn {
   font-size: 110%;
-  background-color: rgb(131, 79, 24);
+  background-color: rgb(151, 11, 41);
   padding: 10px 30px;
   border-radius: 5%;
   color: #fff;
 }
 
 #btn:hover {
-  background-color: rgb(102, 74, 29);
+  background-color: rgb(85, 5, 41);
 }
 
 /* --------- screen sizes of 1000px and below ------------ */
