@@ -102,7 +102,7 @@ The following errors were found with the official W3C validator and were correct
 The following items were pointed out by lighthouse in devtools and were corrected:
 * I changed the color of the submit button in contact.html in order to make the letters easily readable. 
 * I added "title" property in the iframe tag.
-* I changed h3 text to h2 at line 30 in contact.html ir order to have heading elements in a sequentially descending order.  
+* I changed h3 text to h2 in line 30 in contact.html ir order to have heading elements in a sequentially descending order.  
 ![accessibility "Home"](assets/images/readme/accessibility-home.png)
 ![accessibility "Events"](assets/images/readme/accessibility-events.png)
 ![accessibility "Contact"](assets/images/readme/accessibility-contact.png)
