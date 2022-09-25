@@ -11,7 +11,7 @@
 Html and CSS
 
 ## Features
-<span style="text-decoration: underline">Navigation (Common for all three pages)</span>
+*Navigation (Common for all three pages)*
 
 ![navigation](assets/images/readme/navigation.png)
 
@@ -22,34 +22,32 @@ Html and CSS
 * The titles of all three pages are clearly defined so users can easily access the information they need.     
 
 ### "Home" page
-<span style="text-decoration: underline">Welcome section</span>
+*Welcome section*
 
 ![welcome](assets/images/readme/welcome.png)
 
 * Welcome section offers a welcome message, invites users to visit the place and provides them with a general overview of the garden.
-* Flower icons are used for the title of this section (in other sections and paragraphs as well), and these make the page visually enjoyable.    
+* Flower icons are used for the title of this section (in other sections and paragraphs as well), and these make the page visually more enjoyable.    
 
-<span style="text-decoration: underline">Join us section</span>
+*Join us section*
 
 ![join us](assets/images/readme/join-us.png)
 ![join us](assets/images/readme/join-us2.png)
 
 * The title and the one-line introduction call users to participate in the events at the garden. 
-* The section introduces two upcoming events.
-* The descriptions of the events give users important information about the events.  
+* The section introduces two upcoming events and provide users with important information about the events.
 * The descriptions are accompanied by photos, so the users can get the feel for the events.
-* At the end of each description, a link to “Contact” page is placed, where users can sign up for the events or write to personnel.  
-* Then comes another link to “Events” page, which shows the list of the events held at the garden throughout the year. 
-* The links offer users quick access to the events list and to the contact form—-two important elements of this web application.
-* At the bottom of the section, additional photos are displayed so users can get an impression of what the garden is like.  
+* At the end of each description, a link to “Contact” page is placed, where users can sign up for the events or write to the personnel.  
+* Then comes another link to “Events” page, where users can see what events are held at the garden throughout the year. 
+* At the bottom of the section, additional photos are displayed so users can imagine what the garden is like.  
 
-<span style="text-decoration: underline">Where we are section</span>
+*Where we are section*
 
 ![where we are](assets/images/readme/where-we-are.png)
 
 * The section shows a map imported from google map and the address of the garden as well as directions, all of which are valuable for those who plan to visit the place.    
 
-<span style="text-decoration: underline">Footer (common for "Home" and "Events" pages)</span>
+*Footer (common for "Home" and "Events" pages)*
 
 ![footer](assets/images/readme/footer.png)
 
@@ -58,7 +56,7 @@ Html and CSS
 
 ### "Events" page 
 
-<img src="assets/images/readme/events-table.png" alt="evnets table" width="50%"/>
+![events](assets/images/readme/events-table.png)
 
 * The page includes a table where the events at the garden are listed in the calendrical order.
 * This list is valuable since it informs users about the events held at the garden throughout the year.   
@@ -71,7 +69,7 @@ Html and CSS
 
 * The page contains a form, with which users can sign up for events or simply write to personnel.  
 * The form collects users’ first names, last names, emails, their options for which event(s) they want to sign up for (optional) and/or comments (optional).
-* The form is important as it allows users to sign up for the events or contact the personnel.   
+* The form is important as it allows users to sign up for the events or to contact the personnel.   
 * On this page, I made a dark background for the logo in order to make a sufficient contrast.
 * For the background of the form, I used a dark gray color so that the white letters on the form are easily readable. 
 * By using the dark gray color I also intended to avoid interfering with the colors of the flowers in the surrounding image.  I made the color somewhat transparent so the audience can still see through the flowers.  
@@ -124,7 +122,7 @@ The steps to deploy:
 * Some corrections and suggestions on the code were given by Jubril Acolade and were incorporated.
 * The code of social media links was taken from Code Institute’s Love Running Project.
 
-### Medias
+### Media
 * The three photos on "Home" page (the compost pile, a hand planting bulbs and a girl watering a red tulip) were downloaded from Shutterstock (All other photos used in this project were taken by myself.) 
 
 https://www.shutterstock.com/ja/image-photo/little-girl-posing-red-watering-can-104304419
