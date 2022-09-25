@@ -11,7 +11,7 @@
 Html and CSS
 
 ## Features
-*Navigation (Common for all three pages)*
+**Navigation (Common for all three pages)**
 
 ![navigation](assets/images/readme/navigation.png)
 
@@ -22,14 +22,14 @@ Html and CSS
 * The titles of all three pages are clearly defined so users can easily access the information they need.     
 
 ### "Home" page
-*Welcome section*
+**Welcome section**
 
 ![welcome](assets/images/readme/welcome.png)
 
 * Welcome section offers a welcome message, invites users to visit the place and provides them with a general overview of the garden.
 * Flower icons are used for the title of this section (in other sections and paragraphs as well), and these make the page visually more enjoyable.    
 
-*Join us section*
+**Join us section**
 
 ![join us](assets/images/readme/join-us.png)
 ![join us](assets/images/readme/join-us2.png)
@@ -41,13 +41,13 @@ Html and CSS
 * Then comes another link to “Events” page, where users can see what events are held at the garden throughout the year. 
 * At the bottom of the section, additional photos are displayed so users can imagine what the garden is like.  
 
-*Where we are section*
+**Where we are section**
 
 ![where we are](assets/images/readme/where-we-are.png)
 
 * The section shows a map imported from google map and the address of the garden as well as directions, all of which are valuable for those who plan to visit the place.    
 
-*Footer (common for "Home" and "Events" pages)*
+**Footer (common for "Home" and "Events" pages)**
 
 ![footer](assets/images/readme/footer.png)
 
