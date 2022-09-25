@@ -125,17 +125,19 @@ The steps to deploy:
 ### Media
 * The three photos on "Home" page (the compost pile, a hand planting bulbs and a girl watering a red tulip) were downloaded from Shutterstock (All other photos used in this project were taken by myself.) 
 
-https://www.shutterstock.com/ja/image-photo/little-girl-posing-red-watering-can-104304419
+    https://www.shutterstock.com/ja/image-photo/little-girl-posing-red-watering-can-104304419
 
-https://www.shutterstock.com/ja/image-photo/womens-hand-soilsoil-flower-bulbs-close-655746205
+    https://www.shutterstock.com/ja/image-photo/womens-hand-soilsoil-flower-bulbs-close-655746205
 
-https://www.shutterstock.com/ja/image-photo/person-building-permaculture-hill-mound-using-1858739254
+    https://www.shutterstock.com/ja/image-photo/person-building-permaculture-hill-mound-using-1858739254
 
 * The two flower icons on "Home" page were taken from Freepik: 
-https://www.freepik.com/free-vector/hand-drawn-flower-set_4089974.htm#query=flower%20graphic&position=40&from_view=search
+
+    https://www.freepik.com/free-vector/hand-drawn-flower-set_4089974.htm#query=flower%20graphic&position=40&from_view=search
 
 * Font Lato was imported from Google Fonts.
 * The sitemap was taken from Google Map.
 * The social network icons (Facebook, Twitter and Instagram) were taken from Font Awesome.
 * The floral graphic in the footer was taken from Freepik:
-https://www.freepik.com/free-vector/hand-drawn-monoline-floral-decorative-elements-background_24858693.htm#query=black%20white%20graphics%20flower&position=5&from_view=search
+
+    https://www.freepik.com/free-vector/hand-drawn-monoline-floral-decorative-elements-background_24858693.htm#query=black%20white%20graphics%20flower&position=5&from_view=search
