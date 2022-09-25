@@ -93,19 +93,21 @@ The radio buttons in contact.html can't be undone if once selected.  In the futu
 ## Validator Testing
 ### HTML
 The following errors were found with the official W3C validator and were corrected:
-* Some id names were used twice for different tags.
-* id attributes were missing in input tags in contact.html. 
-* There were improper line breaks in the value of the source attribute in iframe tag. 
+* Some id names were used twice for different tags, so I made unique ids for those tags. 
+* id attributes were missing in input tags in contact.html.  I added them.
+* There were improper line breaks in the value of the source attribute in iframe tag.  I put the value in one line.(line 92 in index.html)
 
 ### CSS
 * No errors were found by the official (Jigsaw) validator.     
 
 ## Accessibility and Performance 
 The following items were pointed out by lighthouse in devtools and were corrected:
-* I resized the images so the pages load faster.  
 * I changed the color of the submit button in contact.html in order to make the letters easily readable. 
 * I added "title" property in the iframe tag.
 * I changed h3 text to h2 at line 30 in contact.html ir order to have heading elements in a sequentially descending order.  
+![accessibility "Home"](assets/images/readme/accessibility-home.png)
+![accessibility "Events"](assets/images/readme/accessibility-events.png)
+![accessibility "Contact"](assets/images/readme/accessibility-contact.png)
 
 ## Deployment
 The site was deployed to GitHub pages.  
