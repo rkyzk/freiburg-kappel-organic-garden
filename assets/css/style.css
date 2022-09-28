@@ -545,11 +545,11 @@ textarea {
   }
 
   #events-table {
-    width: 290px;
+    width: 295px;
   }
 
   .column-2 {
-    padding: 0;
+    padding: 5px;
   }
 
   #red-gladiolus, #dahlia, #sunflower, #gladiolus {
