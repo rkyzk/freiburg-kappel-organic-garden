@@ -231,9 +231,13 @@ h2, #events > p, #events h3, .sign-up, #bulbs-date {
   width: 100%;
 }
 
+.column-2 {
+  padding-left: 30px;
+}
+
 #events-table {
   font-size: 110%;
-  width: 400px;
+  width: 430px;
   margin: 0 auto;
 }
 
@@ -326,14 +330,14 @@ textarea {
 
 #btn {
   font-size: 110%;
-  background-color: rgb(151, 11, 41);
+  background-color: rgba(20, 37, 125);
   padding: 10px 30px;
   border-radius: 5%;
   color: #fff;
 }
 
 #btn:hover {
-  background-color: rgb(85, 5, 41);
+  background-color: rgb(19, 4, 103);
 }
 
 /* --------- screen sizes of 1000px and below ------------ */
@@ -445,14 +449,6 @@ textarea {
 
   #events-table {
     font-size: 100%;
-  }
-
-  .column-2 {
-    padding-left: 30px;
-  }
-
-  #events-table tr {
-    line-height: 2;
   }
 
   #red-gladiolus, #dahlia, #sunflower, #gladiolus {
