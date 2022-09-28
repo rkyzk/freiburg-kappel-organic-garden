@@ -120,7 +120,8 @@ The steps to deploy:
 
 ## Credits
 ### Content
-* Some corrections and suggestions on the code were given by Jubril Acolade and were incorporated.
+* Some suggestions were given by my mentor Jubril Acolade.
+Accordingly, I made the color contrast between the background and the letters stronger, and I implemented set values for widths and heights of some images.  
 * The code of social media links was taken from Code Institute’s Love Running Project.
 
 ### Media
