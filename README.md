@@ -125,6 +125,10 @@ Accordingly, I made the color contrast between the background and the letters st
 * The code of social media links was taken from Code Institute’s Love Running Project.
 
 ### Media
+* The favicon was taken from the following site:
+
+    https://icons8.com/icon/set/plants/ios-filled
+
 * Font Lato was imported from Google Fonts.
 * The three photos on "Home" page (the compost pile, a hand planting bulbs and a girl watering a red tulip) were downloaded from Shutterstock (All other photos used in this project were taken by myself.) 
 
