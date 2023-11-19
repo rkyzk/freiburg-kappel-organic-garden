@@ -1,3 +1,5 @@
+デプロイしたウェブサイトはこちら: [Freiburg Kappel Organic Garden](https://rkyzk.github.io/freiburg-kappel-organic-garden/)
+
 # Freiburg Kappel Organic Garden
 
 ## Description: 
@@ -6,6 +8,8 @@
 * On the web pages, the users can see various photos of the garden and get information about the events as well as directions to the garden. The contact page offers a form, with which the users should be able to sign up for the events, or send messages to the personnel. The input data will not be sent to a database, but the function will be implemented in the future.
 
 ![responsiveness](assets/images/readme/responsiveness.png)
+
+* the live link to the website: [Freiburg Kappel Organic Garden](https://rkyzk.github.io/freiburg-kappel-organic-garden/)
 
 ## Technologies used: 
 HTML and CSS
@@ -114,9 +118,8 @@ The steps to deploy:
 * In the Github repository, click on the Settings tab.
 * Click on “Pages” in the left column.
 * Under “Build and deployment,” select “deploy from a branch,” “main” and “/root” as in the photo below.
-* Then the link to the website will appear on the top of the page. 
-* the live link to the website: [Freiburg Kappel Organic Garden](https://rkyzk.github.io/freiburg-kappel-organic-garden/)
-![github page](assets/images/readme/github.png)
+<img src="assets/images/readme/github.png" style="width: 800px;">
+* The link to the website will appear on the top of the page. 
 
 ## Credits
 ### Content
